@@ -1,0 +1,7 @@
+streamlit
+langchain-community
+unstructured
+unstructured[pdf]
+langchain-openai
+pydantic>=2.7.4
+python-dotenv
