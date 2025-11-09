@@ -108,7 +108,8 @@ HealthSync/
 ├── data_processor.py       # LangChain logic & LLM integration
 ├── requirements.txt        # Python dependencies
 ├── .env                    # API key configuration (create this)
-├── .gitignore             # Git ignore file
+├── BP1(INPUT)              # Blood Pressure Medical Report
+├── Urine(INPUT)            # Urine Medical Report 
 └── README.md              # Project documentation
 ```
 
@@ -120,7 +121,8 @@ HealthSync/
 | `data_processor.py` | Core LangChain logic, Pydantic models, LLM functions |
 | `requirements.txt` | All required Python packages |
 | `.env` | Stores `OPENAI_API_KEY` (git-ignored) |
-
+| `BP1` | Blood Pressure Medical report of an Patient X to Test the Model|
+| `Urine` | Urine Medical report of an Paient Y to Test the Model |
 ---
 
 ## 📦 Dependencies
