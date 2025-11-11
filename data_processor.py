@@ -28,7 +28,7 @@ class ExtractedHealthData(BaseModel):
 
 # --- Core Functions ---
 
-def initialize_llm(api_key: str, model_name: str = "gpt-4o", temperature: float = 0):
+def initialize_llm(api_key: str, model_name: str = "gpt-4o", temperature: float = 0.7):
     """Initializes the ChatOpenAI model."""
     if not api_key:
         raise ValueError("OpenAI API key is required.")
